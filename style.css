@@ -1,0 +1,180 @@
+html {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.roundedButton {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 25px;
+    font-size: 20pt;
+}
+
+.backgroundImage {
+    position: absolute;
+    z-index: -10;
+}
+
+.moonImage {
+    top: 0%;
+    right: 40%;
+    /* height: 100%; */
+}
+
+.sunImage {
+    top: -50%;
+    right: -30%;
+}
+
+.sateliteImage {
+    top: 30%;
+    right: 15%;
+    transform: rotate(60deg);
+}
+
+.vl {
+    border-left: 6px solid white;
+    height: 80%;
+    border-radius: 10px;
+}  
+
+.vlThin {
+    border-left: 3px solid white;
+    height: 80%;
+    border-radius: 10px;
+}  
+
+
+.hl {
+    border-bottom: 6px solid white;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.left {
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.right {
+    display: flex;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.topCenter {
+    margin-left:auto;
+    margin-right:auto;}
+
+/*
+Title Div
+*/
+
+.titleDiv {
+    display: flex;
+    width: 99vw;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+}
+
+.titleTextDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 100px;
+}
+
+.titleHeader {
+    font-size: 96pt;
+    padding: 0;
+    margin: -10px;
+}
+
+.titleSubheader {
+    font-size: 32pt;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*
+Point Div
+*/
+.pointDiv {
+    display: flex;
+    width: 99vw;
+    min-height: 20vw;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.pointTextDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+}
+
+.pointHeader {
+    font-size: 42pt;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    max-width: 50vw;
+}
+
+.pointSubheader {
+    font-size: 16pt;
+    padding: 0;
+    margin: 0;
+    max-width: 50vw;
+}
+
+.pointParagraph {
+    font-size: 16pt;
+    max-width: 50vw;
+}
+
+/*
+Navbar
+*/
+.navbar {
+    width: 100%;
+    height: 75px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 7px;
+    padding-left: 10px;
+}
+
+.navbarText {
+    font-size: 18pt;
+    margin: 10px;
+    color: rgb(230, 230, 230);
+}
